@@ -1,36 +1,31 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Elizabeth Murillo">
-  <meta name="description" content="Me  encanta la tecnologia y programar">
-  <meta name="keywords" content="desarrollo web, desarrolladora web, diseñadora web,
-              desarrolador freelancer,diseño web reponsive">
-  <!-- Fuente  -->
+  <meta name="description" content="Me encanta la tecnología y programar">
+  <meta name="keywords" content="desarrollo web, desarrolladora web, diseñadora web, desarrollador freelancer, diseño web responsive">
+  
+  <!-- Fuente -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-  <!-- Iconos  -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <!-- Iconos -->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-
-  <title> Mi Portafolio</title>
+  <title>Mi Portafolio</title>
   <link rel="shortcut icon" href="assets/img/image-logo.png" type="image/x-icon">
-      <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <script type="module" src="assets/js/main.js"></script>
-  <!-- EmailJS  -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-  </script>
+  
+  <!-- EmailJS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script type="text/javascript">
-    (
-      function () {
-      emailjs.init({
-        publicKey: "VgbDnbIY-RuCOjnwS",
-      });
+    (function () {
+      emailjs.init("VgbDnbIY-RuCOjnwS");
     })();
   </script>
 </head>
@@ -39,66 +34,62 @@
   <!-- Loader -->
   <div class="loader flex--container">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237 268" class="loader__logo">
-      <path fill="currentColor"
-        d="M108.473 2.81055C114.675 -0.783262 122.325 -0.783265 128.527 2.81055L226.74 59.7212C232.912 63.298 236.712 69.8919 236.712 77.0259V190.974C236.712 198.108 232.912 204.702 226.74 208.279L128.527 265.189C122.325 268.783 114.675 268.783 108.473 265.189L10.2601 208.279C4.08755 204.702 0.287529 198.108 0.287529 190.974V77.0259C0.287529 69.8919 4.08754 63.298 10.2601 59.7212L108.473 2.81055Z">
-      </path>
+      <path fill="currentColor" d="M108.473 2.81055C114.675 -0.783262 122.325 -0.783265 128.527 2.81055L226.74 59.7212C232.912 63.298 236.712 69.8919 236.712 77.0259V190.974C236.712 198.108 232.912 204.702 226.74 208.279L128.527 265.189C122.325 268.783 114.675 268.783 108.473 265.189L10.2601 208.279C4.08755 204.702 0.287529 198.108 0.287529 190.974V77.0259C0.287529 69.8919 4.08754 63.298 10.2601 59.7212L108.473 2.81055Z"></path>
     </svg>
   </div>
+  
   <header class="header">
     <nav class="navbar grid--container flex--container">
       <a class="navbar__logo flex--container" href="#"><i class="desarrolloweb"></i>ELIZAM</a>
 
-
-        <div id="nav" class="navbar__menu">
+      <div id="nav" class="navbar__menu">
         <a href="#close"><i class="bx bx-x btn__close navbar__icon flex--container"></i></a>
-
-
         <ul class="navbar__list flex--container">
           <li class="navbar__item">
             <a class="navbar__link active" href="#home">Home</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__link" href="#about ">About me</a>
+            <a class="navbar__link" href="#about">About me</a>
           </li>
           <li class="navbar__item">
             <a class="navbar__link" href="#skills">Skills</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__link" href="#projects">Proyects</a>
+            <a class="navbar__link" href="#projects">Projects</a>
           </li>
           <li class="navbar__item">
             <a class="navbar__link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
+      
       <div class="contact_container">
         <div class="about__contact">
-            <span class="about__name-contact">¡"Contact me!</span>
-            <ul class="about__social">
-                <li class="home__social-item">
-                    <a class="about__social-link" href="https://www.linkedin.com/in/eli-murillo-66abbb289/" target="_blank">
-                        <i class="bx bxl-linkedin"></i>
-                    </a>
-                </li>
-                <li class="home__social-item">
-                    <a class="about__social-link" href="https://wa.me/+50765088123?text=Hola, Bienvenido, estamos para servirte" target="_blank">
-                        <i class="bx bxl-whatsapp"></i>
-                    </a>
-                </li>
-                <li class="home__social-item">
-                    <a class="about__social-link" href="https://github.com/Elizam24" target="_blank">
-                        <i class="bx bxl-github"></i>
-                    </a>
-                </li>
-                <li class="home__social-item">
-                    <a class="about__social-link" href="mailto:mifergpt@gmail.com" target="_blank">
-                        <i class="bx bx-envelope"></i>
-                    </a>
-                </li>
-            </ul>
+          <span class="about__name-contact">¡Contact me!</span>
+          <ul class="about__social">
+            <li class="home__social-item">
+              <a class="about__social-link" href="https://www.linkedin.com/in/eli-murillo-66abbb289/" target="_blank">
+                <i class="bx bxl-linkedin"></i>
+              </a>
+            </li>
+            <li class="home__social-item">
+              <a class="about__social-link" href="https://wa.me/+50765088123?text=Hola, Bienvenido, estamos para servirte" target="_blank">
+                <i class="bx bxl-whatsapp"></i>
+              </a>
+            </li>
+            <li class="home__social-item">
+              <a class="about__social-link" href="https://github.com/Elizam24" target="_blank">
+                <i class="bx bxl-github"></i>
+              </a>
+            </li>
+            <li class="home__social-item">
+              <a class="about__social-link" href="mailto:mifergpt@gmail.com" target="_blank">
+                <i class="bx bx-envelope"></i>
+              </a>
+            </li>
+          </ul>
         </div>
-    </div>
-      
+      </div>
 
       <div class="navbar__toggles flex--container">
         <div class="navbar__toggle--darkmode flex--container">
@@ -107,6 +98,7 @@
             <i class="bx bx-sun navbar__toggle--darkmode-sun"></i>
             <i class="bx bx-moon navbar__toggle--darkmode-moon"></i>
           </label>
+        </div>
 
         <!-- Section-language -->
         <div class="navbar__toggle--language flex--container">
@@ -116,9 +108,7 @@
       </div>
       <a href="#nav"><i class="bx bx-menu btn__open navbar__icon"></i></a>
     </nav>
-
   </header>
-
 
   <main>
     <section id="home" class="home">
@@ -138,7 +128,6 @@
           <img src="assets/img/image-logo.png" alt="image" title="logo" />
         </div>
 
-
         <ul class="home__social flex--container">
           <li class="home__social-item">
             <a class="home__social-link" href="https://www.linkedin.com/in/eli-murillo-66abbb289/" target="_blank"><i class="bx bxl-linkedin"></i></a>
@@ -154,14 +143,9 @@
           </li>
         </ul>
 
-
         <div class="home__info">
           <h1 class="home__title">Hello, I am Ely</h1>
-
-
-          <p class="home__description">
-            I am a web developer, I love technology and programming.
-          </p>
+          <p class="home__description">I am a web developer, I love technology and programming.</p>
         </div>
 
         <div class="home__buttons">
@@ -169,38 +153,30 @@
             Download resume
           </a>
         </div>
-
       </div>
     </section>
+
     <section id="about" class="about section">
       <h2 class="section__title">About me</h2>
-
-
       <div class="about__container grid--container">
         <p class="about__description">
           "Web developer with experience in JavaScript, React, HTML and backend development.
           Expert in creating interactive and functional user interfaces, web application optimization, and integration of backend services for complete solutions.
           Passionate about solving problems and learning innovative technologies."
-            </p>
+        </p>
         <div class="about__cards flex--container">
           <!--Card 1 -->
           <div class="about__card">
-            <img class="about__card--img" src="13.png" alt=""
-              title="About me" />
+            <img class="about__card--img" src="13.png" alt="About me" title="About me" />
           </div>
         </div>
       </div>
     </section>
+
     <section id="skills" class="skills section">
       <h2 class="section__title">Skills</h2>
-
-
       <div class="skills__container grid--container">
-        <p class="skills__description flex--container">
-          We manage projects where we have used javascript, html, css and react. 
-        </p>
-
-
+        <p class="skills__description flex--container">We manage projects where we have used JavaScript, HTML, CSS and React.</p>
         <div class="skills__wrapper flex--container">
           <div class="skills__cards flex--container">
             <!--Card 1 -->
@@ -210,12 +186,9 @@
               </summary>
               <div class="skills__card-container">
                 <h3 class="skills__card-title">HTML</h3>
-
-
                 <p class="skills__card-description">
-                  Advanced skill in HTML5 to structure web content in a semantic and accessible way. Ability to create clean and functional interfaces, 
-                  with a focus on compatibility between different devices and browsers."
-             
+                  Advanced skill in HTML5 to structure web content in a semantic and accessible way. Ability to create clean and functional interfaces,
+                  with a focus on compatibility between different devices and browsers.
                 </p>
               </div>
             </details>
@@ -226,13 +199,11 @@
               </summary>
               <div class="skills__card-container">
                 <h3 class="skills__card-title">JavaScript</h3>
-
-
                 <p class="skills__card-description">
-                  "JavaScript expert, with a solid understanding of its use to develop 
+                  "JavaScript expert, with a solid understanding of its use to develop
                   dynamic and functional applications. Extensive experience in manipulating the DOM,
-                   event handling and use ES6+ to write clean and efficient code."
-                   </p>
+                  event handling and use ES6+ to write clean and efficient code."
+                </p>
               </div>
             </details>
             <!--Card 3 -->
@@ -242,12 +213,10 @@
               </summary>
               <div class="skills__card-container">
                 <h3 class="skills__card-title">React</h3>
-
-
                 <p class="skills__card-description">
-                  Extensive experience in developing web applications using React, 
-                  creating reusable components and managing state with tools 
-                  such as Redux and Context API. Knowledge of route creation 
+                  Extensive experience in developing web applications using React,
+                  creating reusable components and managing state with tools
+                  such as Redux and Context API. Knowledge of route creation
                   and optimization of application performance.
                 </p>
               </div>
@@ -258,12 +227,10 @@
                 <i class="bx bxl-react flex--container"></i>
               </summary>
               <div class="skills__card-container">
-                <h3 class="skills__card-title">backend</h3>
-
-
+                <h3 class="skills__card-title">Backend</h3>
                 <p class="skills__card-description">
-                  "Experience in backend development with Node.js and Express, creating RESTful APIs, 
-                  integrating databases and managing user authentication and authorization. 
+                  "Experience in backend development with Node.js and Express, creating RESTful APIs,
+                  integrating databases and managing user authentication and authorization.
                   Knowledge in the implementation of scalable and efficient services."
                 </p>
               </div>
@@ -276,237 +243,166 @@
             <span class="skills__tag">Responsible</span>
             <span class="skills__tag">Teamwork</span>
             <span class="skills__tag">Creative</span>
-            <span class="skills__tag">Puntuacl</span>
+            <span class="skills__tag">Punctual</span>
             <span class="skills__tag">Proactive</span>
             <span class="skills__tag">Autodidact</span>
           </div>
         </div>
       </div>
     </section>
+
     <section id="projects" class="projects section">
-      <h2 class="section__title">Proyects</h2>
-
-
+      <h2 class="section__title">Projects</h2>
       <div class="projects__container grid--container">
         <div class="projects__project">
           <div class="projects__inner grid--container">
             <div class="projects__image">
-              <img src="assets/img/App del clima.jpeg" alt="project 1" title="My Portfolio" />
+              <img src="assets/img/App del clima.jpeg" alt="project 1" title="Weather App" />
             </div>
-
-
             <div class="projects__info">
-              <h3 class="projects__name">weather app</h3>
+              <h3 class="projects__name">Weather App</h3>
               <p class="projects__description">
                 This application allows you to indicate the weather in different cities around the world.
               </p>
-
-
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">
-                  SEE DEMO https://app.netlify.com/sites/project-a02e02/overview
-                </button>
-                <button class="btn projects__button" type="button">
-                  SEE CODE https://github.com/Elizam24/project-A02E02
-                </button>
+                <a class="btn projects__button" href="https://app.netlify.com/sites/project-a02e02/overview" target="_blank">SEE DEMO</a>
+                <a class="btn projects__button" href="https://github.com/Elizam24/project-A02E02" target="_blank">SEE CODE</a>
               </div>
             </div>
           </div>
         </div>
 
-
         <div class="projects__project">
           <div class="projects__inner grid--container">
             <div class="projects__image">
-              <img src="assets/img/Rick and Morthy.png" alt="project 1" title="Rick and Morthy" />
+              <img src="assets/img/Rick and Morthy.png" alt="project 2" title="Rick and Morty" />
             </div>
-
-
             <div class="projects__info">
-              <h3 class="projects__name">Rick and Morthy</h3>
+              <h3 class="projects__name">Rick and Morty</h3>
               <p class="projects__description">
-                Tool used: javaScript, CSS and React. 
+                Tool used: JavaScript, CSS and React. 
                 The application presents a list of characters with their characteristics, 
                 such as name, species, status and an image. Users can search 
                 and filter characters to get detailed information.
               </p>
-
-
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">
-                  SEE DEMO
-                </button>
-                <button class="btn projects__button" type="button">
-                  https://github.com/Elizam24/rick-morty.git
-                  SEE CODE
-                </button>
+                <a class="btn projects__button" href="#" target="_blank">SEE DEMO</a>
+                <a class="btn projects__button" href="https://github.com/Elizam24/rick-morty.git" target="_blank">SEE CODE</a>
               </div>
             </div>
           </div>
         </div>
 
-
         <div class="projects__project">
           <div class="projects__inner grid--container">
             <div class="projects__image">
-              <img src="assets/img/" alt="project 1" title="Pokedex" />
+              <img src="assets/img/pokedex.png" alt="project 3" title="Pokedex" />
             </div>
-
-
             <div class="projects__info">
               <h3 class="projects__name">Pokedex</h3>
               <p class="projects__description">
                 "Pokédex project developed in React, where users can
-                Explore detailed information about different Pokémon. Use external API 
+                explore detailed information about different Pokémon. Use external API 
                 to get up-to-date data on each Pokémon, such as statistics, 
-                skills . The application has a clean and easy to navigate interface,
-                 where you can filter Pokémon by name, type or Pokédex number. 
-                 Additionally, features such as dynamic image loading are implemented 
-                 and a responsive presentation for mobile devices. We had management of 
-                 states with Hooks, responsive design with CSS and the integration of external APIs."
+                skills. The application has a clean and easy to navigate interface,
+                where you can filter Pokémon by name, type or Pokédex number. 
+                Additionally, features such as dynamic image loading are implemented 
+                and a responsive presentation for mobile devices. We had management of 
+                states with Hooks, responsive design with CSS and the integration of external APIs."
               </p>
-
-
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">
-                  SEE DEMO
-                </button>
-                <button class="btn projects__button" type="button">
-                  https://github.com/Elizam24/Pokedex-25
-                  SEE CODE
-                </button>
+                <a class="btn projects__button" href="#" target="_blank">SEE DEMO</a>
+                <a class="btn projects__button" href="https://github.com/Elizam24/Pokedex-25" target="_blank">SEE CODE</a>
               </div>
             </div>
           </div>
         </div>
 
-
         <div class="projects__project">
           <div class="projects__inner grid--container">
             <div class="projects__image">
-              <img src="assets/img/crud.jpeg" alt="project 1" title="CRUD" />
+              <img src="assets/img/crud.jpeg" alt="project 4" title="CRUD" />
             </div>
-
-
             <div class="projects__info">
               <h3 class="projects__name">CRUD</h3>
               <p class="projects__description">
                 Allows you to Create, List, Update and Delete (CRUD) users of an API. 
-                 Use CSS for form designs
+                Use CSS for form designs.
               </p>
-
-
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">
-                  SEE DEMO
-                </button>
-                <button class="btn projects__button" type="button">
-                  SEE CODE https://github.com/Elizam24/S04E04.git
-                </button>
+                <a class="btn projects__button" href="#" target="_blank">SEE DEMO</a>
+                <a class="btn projects__button" href="https://github.com/Elizam24/S04E04.git" target="_blank">SEE CODE</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <section id="contact" class="contact section">
       <h2 class="section__title">Contact</h2>
-
-
       <div class="contact__container grid--container">
         <div class="contact__info">
           <h3 class="contact__info-title">Information contact</h3>
           <p class="contact__info-description">
             To contact me you can use any of the following means:
           </p>
- 
           <address class="contact__info-data">
             <div class="contact__info-item">
               <i class="bx bxl-whatsapp"></i>
-
-
               <span class="contact__info-number">
-                <a href="https://https://wa.me/+50765088123?text=Hola" target="_blank"
-                  rel="noreferrer nofollow">Send message to WhatsApp</a>
+                <a href="https://wa.me/+50765088123?text=Hola" target="_blank" rel="noreferrer nofollow">Send message to WhatsApp</a>
               </span>
             </div>
-
-
             <div class="contact__info-item">
               <i class="bx bx-phone"></i>
-
-
               <span class="contact__info-number">
-                <a href="tel:507-65088123" target="_blank" rel="noreferrer nofollow">
-                  +50765088123
-                </a>
+                <a href="tel:+50765088123" target="_blank" rel="noreferrer nofollow">+50765088123</a>
               </span>
             </div>
-
-
             <div class="contact__info-item">
               <i class="bx bxs-envelope"></i>
-
-
               <span class="contact__info-mail">
-                <a id="mail" href="mailto:test@correo.com" target="_blank" rel="noreferrer nofollow">
-                  emprendehelpacademy@gmail.com
-               
-                </a>
+                <a id="mail" href="mailto:emprendehelpacademy@gmail.com" target="_blank" rel="noreferrer nofollow">emprendehelpacademy@gmail.com</a>
               </span>
             </div>
-
-
             <div class="contact__info-item">
               <i class="bx bx-map"></i>
-
-
-              <span class="contact__info-map"> Panamá, Panamá. </span>
+              <span class="contact__info-map">Panamá, Panamá.</span>
             </div>
           </address>
         </div>
 
-
         <div class="contact__form">
           <h3 class="contact__form-title">Send message</h3>
-
-
           <form id="form" class="contact__form-container">
             <div class="contact__form-group">
               <label for="name" class="contact__form-label">Name</label>
-              <input type="text" id="name" name="name" class="contact__form-input" />
+              <input type="text" id="name" name="name" class="contact__form-input" required />
             </div>
-
             <div class="contact__form-group">
               <label for="email" class="contact__form-label">Email</label>
-              <input type="email" id="email" name="email" class="contact__form-input" />
+              <input type="email" id="email" name="email" class="contact__form-input" required />
             </div>
-
-
             <div class="contact__form-group">
-              <label for="subject" class="contact__form-label">Affair</label>
-              <input type="text" id="subject" name="subject" class="contact__form-input" />
+              <label for="subject" class="contact__form-label">Subject</label>
+              <input type="text" id="subject" name="subject" class="contact__form-input" required />
             </div>
-
-
             <div class="contact__form-group">
               <label for="message" class="contact__form-label">Message</label>
-              <textarea id="message" name="message" cols="30" rows="10" class="contact__form-input"></textarea>
+              <textarea id="message" name="message" cols="30" rows="10" class="contact__form-input" required></textarea>
             </div>
             <dialog id="modal">
               Form submitted successfully
               <button type="reset" id="btn_close-modal">Close</button>
             </dialog>
-
-
-            <button type="submit" class="btn contact__form-button">
-              Send
-            </button>
+            <button type="submit" class="btn contact__form-button">Send</button>
           </form>
         </div>
       </div>
     </section>
   </main>
+
   <footer class="footer section">
     <div class="footer__container grid--container">
       <div class="footer__info">
@@ -518,39 +414,23 @@
         </p>
       </div>
 
-
       <div class="footer__social">
         <h3 class="footer__title">Social Network</h3>
-
-
         <ul class="footer__social-list">
           <li class="footer__social-item">
-            <a class="footer__social-link" href="https://www.facebook.com/profile.php?id=100070803983539&locale=es_LA" target="_blank" rel="noreferrer nofollow"><i
-                class="bx bxl-facebook"></i></a>
+            <a class="footer__social-link" href="https://www.facebook.com/profile.php?id=100070803983539&locale=es_LA" target="_blank" rel="noreferrer nofollow"><i class="bx bxl-facebook"></i></a>
           </li>
-
-
           <li class="footer__social-item">
-            <a class="footer__social-link" href="https://www.instagram.com/digitalia1111" target="_blank" rel="noreferrer nofollow"><i
-            class="bx bxl-instagram"></i></a>
+            <a class="footer__social-link" href="https://www.instagram.com/digitalia1111" target="_blank" rel="noreferrer nofollow"><i class="bx bxl-instagram"></i></a>
           </li>
-
-
-         
           <li class="footer__social-item">
-            <a class="footer__social-link" href="https://www.linkedin.com/in/eli-murillo-66abbb289/" target="_blank" rel="noreferrer nofollow"><i
-                class="bx bxl-linkedin"></i></a>
+            <a class="footer__social-link" href="https://www.linkedin.com/in/eli-murillo-66abbb289/" target="_blank" rel="noreferrer nofollow"><i class="bx bxl-linkedin"></i></a>
           </li>
         </ul>
       </div>
     </div>
-
-
-    <p class="footer__copy"></p>
+    <p class="footer__copy">&copy; "2024 Elizabeth Murillo. All rights reserved."</p>
   </footer>
-
-
 </body>
-
 
 </html>
