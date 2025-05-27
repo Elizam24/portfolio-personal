@@ -22,11 +22,11 @@ Codepen - muchas ideas y desarrollos
 :root {
 	--header-height: 60px;
 	/* Colors */
-	--primary-color: light-dark(#062b26, #ffffffcc);
-	--secundary-color: light-dark(#cfa9f3, #ffffffcc);
-	--bg-color-section1: light-dark(#e2b3ec, #0c0c0c);
-	--bg-color-section2: light-dark(#f5cde3, #ec1cbff3);
-	--bg-color-buttons: light-dark(#fabae5, #d66ff8);
+	--primary-color: light-dark(#062b26, #f1ebebcc);
+	--secundary-color: light-dark(#a465d8, #653addcc);
+	--bg-color-section1: light-dark(#f7ecdb, #965fac);
+	--bg-color-section2: light-dark(#d7c3e9, #050505f3);
+	--bg-color-buttons: light-dark(#b47bda, #d66ff8);
 		
 				
 	/* Typografy */
